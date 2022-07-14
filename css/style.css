@@ -1,0 +1,267 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0%;
+    margin-top: 0%;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    font-size: 50px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9004d;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: red;
+    border: 1px solid black;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-color: #f9004d;
+    padding: 10px 25px;
+    font-weight: 700;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.hello {
+    color: yellow;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/image/IMG-20220711-WA0112.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    letter-spacing: 2px;
+}
+
+.name h1 {
+    font-size: 75px;
+    margin: 0%;
+}
+
+.input {
+    margin-top: 50px;
+}
+
+.input form input:first-child {
+    border: 2px solid rgb(255, 0, 170);
+    border-radius: 50px;
+    outline: none;
+    padding: 15px 25px;
+    width: 90%;
+    display: inline-block;
+}
+
+.input form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 170);
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    bottom: 7px;
+    right: 2px;
+}
+
+.main {
+    display: flex;
+    width: 1130px;
+    height: 720px;
+    max-width: 95%;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    background-image: linear-gradient(rgb(12, 11, 11), rgb(26, 20, 20));
+}
+
+.content img {
+    height: 550px;
+    width: 430px;
+    margin-left: 30%;
+
+}
+
+.content img:hover {
+    transition: 2s;
+}
+
+.content-txt {
+    color: white;
+    margin-top: 0%;
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+.content p {
+    color: blueviolet;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 75px;
+    margin: 0%;
+}
+
+.talk {
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    background-color: rgb(255, 3, 121);
+    font-size: 15px;
+    padding: 13px 30px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.talk:hover {
+    background-color: transparent;
+    border: 2px solid rgb(255, 3, 121);
+}
+
+.services {
+    background-color: rgb(15, 14, 14);
+}
+
+.our-services {
+    padding: 50px 40px;
+    text-align: center;
+    color: white;
+}
+
+.all-box {
+    display: flex;
+    width: 100%;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 h3 {
+    font-size: 24px;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    color: white;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(12, 11, 11), rgb(26, 20, 20));
+    text-align: center;
+    padding: 20px 30px;
+    margin-left: 20px;
+}
+
+.box1 p {
+    color: blueviolet;
+    padding-bottom: 20px;
+}
+
+.box1 button {
+    color: white;
+    font-weight: 700px;
+    font-size: 18px;
+    border: 2px solid rgb(255, 3, 121);
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(255, 3, 121);
+}
+
+.box1 button:hover {
+    background-color: black;
+}
+
+#hire {
+    background-color: #000;
+    width: 100%;
+    height: 290px;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hire p {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p:first-child {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pra {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.social a {
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
